@@ -40,7 +40,8 @@ text-align: center;
 }
 .caja {
 width: 300px;
-margin: 16px;
+/* Deseas centrar horizontalmente una caja de bloque (por ejemplo, un div con class='caja') que posee un ancho definido de 300px. ¿Qué regla de márgenes le aplicas en CSS? */
+margin: 0 auto;
 border: 2px solid black;
 padding: 1px;
 } /* en este orden van las propiedades, primero el ancho, luego el margen, luego el borde y por último el relleno. */
