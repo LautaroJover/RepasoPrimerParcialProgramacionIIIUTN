@@ -1,0 +1,46 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #bdbdbd;
+}
+/* estilo del encabezado y párrafo */
+h1 {
+color: #0044ff;
+}
+p {
+color: #284bbe;
+font-size: 16px;
+}
+/* Selectores CSS */
+.destacado {
+background-color: yellow;
+}
+#encabezado {
+color: navy;
+}
+nav a {
+text-decoration: none;
+}
+h1, h2, h3 {
+font-family: 'Times New Roman', serif;
+}
+/* Pseudoclases básicas */
+a {
+color: #413b30;
+}
+a:hover {
+color: rgb(255, 255, 255);
+}
+input:focus {
+border-color: blue;
+border-width: 0.5cap;
+}
+/* Propiedades CSS frecuentes */
+h1 {
+text-align: center;
+}
+.caja {
+width: 300px;
+margin: 16px;
+border: 2px solid black;
+padding: 1px;
+} /* en este orden van las propiedades, primero el ancho, luego el margen, luego el borde y por último el relleno. */
